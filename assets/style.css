@@ -28,7 +28,7 @@ body{
       border-radius: 3px;
       outline:none;
     transition: 0.5s ease-in-out;
-               
+   width:100%;
   }
 
   input[type="text"] , input[type="password"]{
@@ -46,6 +46,12 @@ body{
        color:#fff;
        cursor: pointer;
     }
+
+  
+    /* input[type="submit"]:disabled{
+     background-color:black;
+    } */
+
     input[type="submit"]:hover{
         background: #0f537e;
     }

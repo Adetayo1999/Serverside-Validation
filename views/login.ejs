@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <h1> Admin Login</h1>
     
   <br>
     <form>
-
         <input type="text"  placeholder="Enter Your Name" id="name">
         <input type="text"   placeholder="Enter Your Username" id="username">
         <input type="password"  placeholder="Enter Your Password" id="password">
         <input type="password"  placeholder="Re-enter Your Password" id="passwordrepeat">
+        <div class="g-recaptcha" data-sitekey="6LdJSgEcAAAAAMty32woMWNS_d1hXOVNYq6kXLPF"></div>
+        <br>
         <input type="submit" value="Login">
 
     </form>
